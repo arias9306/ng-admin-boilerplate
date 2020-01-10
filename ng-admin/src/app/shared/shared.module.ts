@@ -1,19 +1,27 @@
 import { NgModule } from '@angular/core';
 import { IconsProviderModule } from '../icons-provider.module';
-import { NgZorroAntdModule } from 'ng-zorro-antd';
-import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { NgZorroAntdModule, NzFormModule, NzLayoutModule, NzGridModule, NzCardModule } from 'ng-zorro-antd';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [],
   imports: [
     IconsProviderModule,
     NgZorroAntdModule,
-    NoopAnimationsModule
+    NzFormModule,
+    NzLayoutModule,
+    ReactiveFormsModule,
+    NzGridModule,
+    NzCardModule
   ],
   exports: [
     IconsProviderModule,
     NgZorroAntdModule,
-    NoopAnimationsModule
+    NzFormModule,
+    NzLayoutModule,
+    ReactiveFormsModule,
+    NzGridModule,
+    NzCardModule
   ]
 })
 export class SharedModule { }

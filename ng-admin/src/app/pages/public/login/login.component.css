@@ -1,0 +1,24 @@
+.login-form {
+  max-width: 300px;
+  text-align: center;
+}
+
+.login-form-forgot {
+  float: right;
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+nz-layout {
+  height: 100%;
+}
+
+nz-header {
+  color: white;
+}
+
+.height-100 {
+  height: 100%;
+}
